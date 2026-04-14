@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative Portfolio — Professional photography for weddings, portraits, events, and brands. Capturing moments that last forever.">
+    <meta name="keywords" content="photographer, wedding photography, portrait, events, commercial photography, creative portfolio">
+    <meta name="author" content="Creative Portfolio">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Creative Portfolio — Professional Photography">
+    <meta property="og:description" content="Capturing moments that last forever. Professional photography for weddings, portraits, events, and brands.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/og-cover.jpg">
+    <title>Creative Portfolio — Professional Photography</title>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════════════
+         PRELOADER
+    ═══════════════════════════════════════════ -->
+    <div id="preloader" class="preloader">
+        <div class="preloader__inner">
+            <div class="preloader__lens"></div>
+            <span class="preloader__text">Creative Portfolio</span>
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════
+         NAVIGATION
+    ═══════════════════════════════════════════ -->
+    <header id="navbar" class="navbar">
+        <div class="navbar__container">
+            <a href="#home" class="navbar__logo">
+                <span class="navbar__logo-accent">Creative</span> Portfolio
+            </a>
+
+            <nav class="navbar__menu" id="navMenu">
+                <ul class="navbar__links">
+                    <li><a href="#home" class="navbar__link active" data-nav="home">Home</a></li>
+                    <li><a href="#about" class="navbar__link" data-nav="about">About</a></li>
+                    <li><a href="#portfolio" class="navbar__link" data-nav="portfolio">Portfolio</a></li>
+                    <li><a href="#services" class="navbar__link" data-nav="services">Services</a></li>
+                    <li><a href="#testimonials" class="navbar__link" data-nav="testimonials">Testimonials</a></li>
+                    <li><a href="#contact" class="navbar__link" data-nav="contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="#contact" class="navbar__cta">Book a Shoot</a>
+
+            <button class="navbar__hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+                <span class="navbar__hamburger-line"></span>
+                <span class="navbar__hamburger-line"></span>
+                <span class="navbar__hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ═══════════════════════════════════════════
+         HERO SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="home" class="hero">
+        <div class="hero__parallax" data-parallax="0.4">
+            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=1920&q=80" alt="Cinematic photography landscape" class="hero__bg" loading="eager">
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <p class="hero__tag reveal-up">— Professional Photography Studio</p>
+            <h1 class="hero__heading reveal-up">
+                Capturing Moments<br>
+                <span class="hero__heading-accent">That Last Forever</span>
+            </h1>
+            <p class="hero__subtext reveal-up">Professional photography for weddings, portraits, events, and brands.</p>
+            <div class="hero__buttons reveal-up">
+                <a href="#portfolio" class="btn btn--primary">View Portfolio</a>
+                <a href="#contact" class="btn btn--outline">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero__scroll-indicator">
+            <span>Scroll</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+        <div class="hero__frame hero__frame--tl"></div>
+        <div class="hero__frame hero__frame--br"></div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__image-wrapper reveal-left">
+                    <div class="about__image-frame">
+                        <img src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?w=600&q=80" alt="Photographer in studio with camera" class="about__image" loading="lazy">
+                    </div>
+                    <div class="about__image-accent"></div>
+                    <div class="about__experience-badge">
+                        <span class="about__experience-number">12+</span>
+                        <span class="about__experience-label">Years of<br>Experience</span>
+                    </div>
+                </div>
+
+                <div class="about__content reveal-right">
+                    <span class="section__tag">About Me</span>
+                    <h2 class="section__title">The Story Behind<br><span class="text-accent">The Lens</span></h2>
+                    <div class="about__divider"></div>
+                    <p class="about__text">
+                        I am a passionate photographer dedicated to capturing authentic emotions and timeless memories. With over a decade behind the lens, I've honed my craft across weddings, portraits, commercial projects, and live events — always chasing the perfect light and the genuine moment.
+                    </p>
+                    <p class="about__text">
+                        My approach blends cinematic storytelling with natural authenticity. Every frame is intentional, every edit is purposeful. I don't just take pictures — I create visual narratives that you'll treasure for a lifetime.
+                    </p>
+
+                    <div class="about__stats">
+                        <div class="about__stat">
+                            <span class="about__stat-number" data-target="12">0</span>
+                            <span class="about__stat-label">Years Experience</span>
+                        </div>
+                        <div class="about__stat">
+                            <span class="about__stat-number" data-target="850">0</span>
+                            <span class="about__stat-label">Projects Completed</span>
+                        </div>
+                        <div class="about__stat">
+                            <span class="about__stat-number" data-target="600">0</span>
+                            <span class="about__stat-label">Happy Clients</span>
+                        </div>
+                        <div class="about__stat">
+                            <span class="about__stat-number" data-target="15">0</span>
+                            <span class="about__stat-label">Awards Won</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PORTFOLIO SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="portfolio" class="portfolio section section--dark">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag">My Work</span>
+                <h2 class="section__title">Selected <span class="text-accent">Portfolio</span></h2>
+                <p class="section__subtitle">A curated selection of my finest photographic work across various genres.</p>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="portfolio__filters reveal-up">
+                <button class="portfolio__filter active" data-filter="all">All</button>
+                <button class="portfolio__filter" data-filter="weddings">Weddings</button>
+                <button class="portfolio__filter" data-filter="portraits">Portraits</button>
+                <button class="portfolio__filter" data-filter="events">Events</button>
+                <button class="portfolio__filter" data-filter="nature">Nature</button>
+                <button class="portfolio__filter" data-filter="commercial">Commercial</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="portfolio__grid" id="galleryGrid">
+                <div class="portfolio__item" data-category="weddings" data-index="0">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80" alt="Elegant wedding ceremony in golden hour" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Weddings</span>
+                        <h3 class="portfolio__name">Golden Hour Ceremony</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item portfolio__item--tall" data-category="portraits" data-index="1">
+                    <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80" alt="Artistic portrait with dramatic lighting" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Portraits</span>
+                        <h3 class="portfolio__name">Dramatic Portraiture</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item" data-category="events" data-index="2">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80" alt="Corporate event stage with vibrant lighting" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Events</span>
+                        <h3 class="portfolio__name">Corporate Gala Night</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item" data-category="nature" data-index="3">
+                    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80" alt="Misty forest landscape at sunrise" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Nature</span>
+                        <h3 class="portfolio__name">Misty Morning Forest</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item portfolio__item--wide" data-category="commercial" data-index="4">
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80" alt="High-end commercial product photography" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Commercial</span>
+                        <h3 class="portfolio__name">Luxury Brand Shoot</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item" data-category="weddings" data-index="5">
+                    <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80" alt="Bride and groom romantic portrait" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Weddings</span>
+                        <h3 class="portfolio__name">Romantic Vows</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item portfolio__item--tall" data-category="portraits" data-index="6">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Male portrait with natural lighting" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Portraits</span>
+                        <h3 class="portfolio__name">Natural Light Study</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item" data-category="nature" data-index="7">
+                    <img src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?w=600&q=80" alt="Mountain lake reflection at dusk" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Nature</span>
+                        <h3 class="portfolio__name">Alpine Reflections</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item" data-category="events" data-index="8">
+                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80" alt="Live concert event with stage lights" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Events</span>
+                        <h3 class="portfolio__name">Music Festival Vibes</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item portfolio__item--wide" data-category="commercial" data-index="9">
+                    <img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=1200&q=80" alt="Food photography for restaurant branding" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Commercial</span>
+                        <h3 class="portfolio__name">Culinary Artistry</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item" data-category="weddings" data-index="10">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80" alt="Wedding reception table decor details" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Weddings</span>
+                        <h3 class="portfolio__name">Reception Details</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="portfolio__item" data-category="portraits" data-index="11">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=80" alt="Fashion portrait with warm tones" class="portfolio__img" loading="lazy">
+                    <div class="portfolio__overlay">
+                        <span class="portfolio__category">Portraits</span>
+                        <h3 class="portfolio__name">Editorial Fashion</h3>
+                        <button class="portfolio__expand" aria-label="View full image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         LIGHTBOX MODAL
+    ═══════════════════════════════════════════ -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer">
+        <button class="lightbox__close" id="lightboxClose" aria-label="Close viewer">&times;</button>
+        <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="lightbox__content">
+            <img src="" alt="" class="lightbox__image" id="lightboxImage">
+            <div class="lightbox__caption" id="lightboxCaption"></div>
+        </div>
+        <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+        <div class="lightbox__counter" id="lightboxCounter"></div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════
+         SERVICES SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag">What I Offer</span>
+                <h2 class="section__title">Photography <span class="text-accent">Services</span></h2>
+                <p class="section__subtitle">Tailored photography solutions for every occasion and brand story.</p>
+            </div>
+
+            <div class="services__grid">
+                <article class="services__card reveal-up">
+                    <div class="services__icon-wrap">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <h3 class="services__title">Wedding Photography</h3>
+                    <p class="services__desc">Cinematic coverage of your most cherished day — from the first look to the final dance. Every moment preserved with elegance.</p>
+                    <div class="services__price">Starting from <strong>₹25,000</strong></div>
+                    <div class="services__card-line"></div>
+                </article>
+
+                <article class="services__card reveal-up">
+                    <div class="services__icon-wrap">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    </div>
+                    <h3 class="services__title">Portrait Photography</h3>
+                    <p class="services__desc">Professional headshots, creative portraits, and lifestyle sessions that reveal your authentic personality and character.</p>
+                    <div class="services__price">Starting from <strong>₹8,000</strong></div>
+                    <div class="services__card-line"></div>
+                </article>
+
+                <article class="services__card reveal-up">
+                    <div class="services__icon-wrap">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+                    </div>
+                    <h3 class="services__title">Event Coverage</h3>
+                    <p class="services__desc">Comprehensive documentation of corporate galas, concerts, product launches, and milestone celebrations with attention to every detail.</p>
+                    <div class="services__price">Starting from <strong>₹15,000</strong></div>
+                    <div class="services__card-line"></div>
+                </article>
+
+                <article class="services__card reveal-up">
+                    <div class="services__icon-wrap">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3 class="services__title">Commercial Shoots</h3>
+                    <p class="services__desc">Product photography, brand campaigns, food styling, and advertising visuals crafted to elevate your business image.</p>
+                    <div class="services__price">Starting from <strong>₹18,000</strong></div>
+                    <div class="services__card-line"></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         FEATURED WORK — HORIZONTAL SCROLL
+    ═══════════════════════════════════════════ -->
+    <section class="featured section--dark section">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag">Highlights</span>
+                <h2 class="section__title">Featured <span class="text-accent">Work</span></h2>
+            </div>
+        </div>
+        <div class="featured__track" id="featuredTrack">
+            <div class="featured__slide">
+                <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900&q=80" alt="Featured wedding ceremony shot" loading="lazy">
+                <div class="featured__slide-overlay">
+                    <span>Wedding Collection</span>
+                    <h3>A Day to Remember</h3>
+                </div>
+            </div>
+            <div class="featured__slide">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900&q=80" alt="Featured fashion portrait" loading="lazy">
+                <div class="featured__slide-overlay">
+                    <span>Portrait Series</span>
+                    <h3>Faces of the City</h3>
+                </div>
+            </div>
+            <div class="featured__slide">
+                <img src="https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?w=900&q=80" alt="Featured landscape photograph" loading="lazy">
+                <div class="featured__slide-overlay">
+                    <span>Nature Series</span>
+                    <h3>Untamed Horizons</h3>
+                </div>
+            </div>
+            <div class="featured__slide">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=900&q=80" alt="Featured commercial product photo" loading="lazy">
+                <div class="featured__slide-overlay">
+                    <span>Commercial</span>
+                    <h3>Brand Identity Shoot</h3>
+                </div>
+            </div>
+            <div class="featured__slide">
+                <img src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=900&q=80" alt="Featured live event coverage" loading="lazy">
+                <div class="featured__slide-overlay">
+                    <span>Events</span>
+                    <h3>Festival Nights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         TESTIMONIALS SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag">Kind Words</span>
+                <h2 class="section__title">Client <span class="text-accent">Testimonials</span></h2>
+            </div>
+
+            <div class="testimonials__carousel reveal-up">
+                <div class="testimonials__track" id="testimonialTrack">
+                    <!-- Slide 1 -->
+                    <div class="testimonials__slide">
+                        <div class="testimonials__quote-icon">"</div>
+                        <p class="testimonials__text">Absolutely incredible work! The photographs from our wedding were beyond anything we imagined. Every emotion, every detail — perfectly captured. We couldn't have asked for a better photographer.</p>
+                        <div class="testimonials__author">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Client Priya Sharma" class="testimonials__avatar" loading="lazy">
+                            <div>
+                                <strong class="testimonials__name">Priya Sharma</strong>
+                                <span class="testimonials__role">Wedding Client</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="testimonials__slide">
+                        <div class="testimonials__quote-icon">"</div>
+                        <p class="testimonials__text">Professional, creative, and incredibly easy to work with. The corporate headshots for our team turned out phenomenal. Everyone loved their photos. Highly recommend for any business needs.</p>
+                        <div class="testimonials__author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Client Rahul Mehta" class="testimonials__avatar" loading="lazy">
+                            <div>
+                                <strong class="testimonials__name">Rahul Mehta</strong>
+                                <span class="testimonials__role">CEO, TechVista</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="testimonials__slide">
+                        <div class="testimonials__quote-icon">"</div>
+                        <p class="testimonials__text">The product photography transformed our brand's online presence completely. Sales went up 40% after we updated our website with the new imagery. An artist with a camera, truly.</p>
+                        <div class="testimonials__author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Client Ananya Roy" class="testimonials__avatar" loading="lazy">
+                            <div>
+                                <strong class="testimonials__name">Ananya Roy</strong>
+                                <span class="testimonials__role">Founder, Luma Skincare</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="testimonials__slide">
+                        <div class="testimonials__quote-icon">"</div>
+                        <p class="testimonials__text">Covered our annual charity gala and delivered the photos within 48 hours. The quality and turnaround time were exceptional. We'll be booking again for every future event without question.</p>
+                        <div class="testimonials__author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="Client Vikram Singh" class="testimonials__avatar" loading="lazy">
+                            <div>
+                                <strong class="testimonials__name">Vikram Singh</strong>
+                                <span class="testimonials__role">Event Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials__controls">
+                    <button class="testimonials__btn" id="testimonialPrev" aria-label="Previous testimonial">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+                    </button>
+                    <div class="testimonials__dots" id="testimonialDots"></div>
+                    <button class="testimonials__btn" id="testimonialNext" aria-label="Next testimonial">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CALL TO ACTION SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="cta">
+        <div class="cta__parallax" data-parallax="0.3">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80" alt="Scenic mountain backdrop" class="cta__bg" loading="lazy">
+        </div>
+        <div class="cta__overlay"></div>
+        <div class="cta__content reveal-up">
+            <span class="section__tag section__tag--light">Let's Work Together</span>
+            <h2 class="cta__heading">Let's Capture Your<br><span class="text-accent">Special Moments</span></h2>
+            <p class="cta__text">Ready to create something beautiful? I'd love to hear about your vision.</p>
+            <a href="#contact" class="btn btn--primary btn--lg">Book Your Session Today</a>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CONTACT SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="contact" class="contact section section--dark">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag">Get In Touch</span>
+                <h2 class="section__title">Contact <span class="text-accent">Me</span></h2>
+                <p class="section__subtitle">Have a project in mind? Let's discuss how we can bring your vision to life.</p>
+            </div>
+
+            <div class="contact__grid">
+                <!-- Contact Form -->
+                <div class="contact__form-wrapper reveal-left">
+                    <form class="contact__form" id="contactForm" novalidate>
+                        <div class="contact__field">
+                            <input type="text" id="contactName" name="name" placeholder=" " required autocomplete="name">
+                            <label for="contactName">Your Name</label>
+                            <span class="contact__error" id="nameError"></span>
+                        </div>
+                        <div class="contact__field">
+                            <input type="email" id="contactEmail" name="email" placeholder=" " required autocomplete="email">
+                            <label for="contactEmail">Email Address</label>
+                            <span class="contact__error" id="emailError"></span>
+                        </div>
+                        <div class="contact__field">
+                            <input type="tel" id="contactPhone" name="phone" placeholder=" " required autocomplete="tel">
+                            <label for="contactPhone">Phone Number</label>
+                            <span class="contact__error" id="phoneError"></span>
+                        </div>
+                        <div class="contact__field">
+                            <textarea id="contactMessage" name="message" rows="5" placeholder=" " required></textarea>
+                            <label for="contactMessage">Your Message</label>
+                            <span class="contact__error" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+                            <span class="btn__text">Send Message</span>
+                            <span class="btn__loader" hidden></span>
+                        </button>
+                        <p class="contact__success" id="formSuccess" hidden>Thank you! Your message has been sent. I'll get back to you shortly.</p>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact__info reveal-right">
+                    <div class="contact__info-card">
+                        <div class="contact__info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+919876543210">+91 98765 43210</a>
+                        </div>
+                    </div>
+                    <div class="contact__info-card">
+                        <div class="contact__info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:hello@creativeportfolio.com">hello@creativeportfolio.com</a>
+                        </div>
+                    </div>
+                    <div class="contact__info-card">
+                        <div class="contact__info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div>
+                            <h4>Studio</h4>
+                            <p>42, Creative Lane, Koramangala<br>Bangalore, Karnataka 560034</p>
+                        </div>
+                    </div>
+
+                    <!-- Google Maps Placeholder -->
+                    <div class="contact__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5960864856487!2d77.61234567489694!3d12.935218487365756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15c58b88b4e3%3A0x53489ae420fa2cda!2sKoramangala%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                            width="100%" height="220" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Studio location on Google Maps"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#home" class="footer__logo"><span class="text-accent">Creative</span> Portfolio</a>
+                    <p class="footer__desc">Telling stories through the lens — one frame at a time. Professional photography services for life's most meaningful moments.</p>
+                    <div class="footer__socials">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__links">
+                    <h4 class="footer__heading">Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__links">
+                    <h4 class="footer__heading">Services</h4>
+                    <ul>
+                        <li><a href="#services">Wedding Photography</a></li>
+                        <li><a href="#services">Portrait Sessions</a></li>
+                        <li><a href="#services">Event Coverage</a></li>
+                        <li><a href="#services">Commercial Shoots</a></li>
+                        <li><a href="#services">Photo Editing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__newsletter">
+                    <h4 class="footer__heading">Stay Updated</h4>
+                    <p>Subscribe for behind-the-scenes content and exclusive offers.</p>
+                    <form class="footer__newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your email" required aria-label="Email for newsletter">
+                        <button type="submit" aria-label="Subscribe">→</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2026 Creative Portfolio. All rights reserved.</p>
+                <p>Made With Love ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ═══════════════════════════════════════════
+         FLOATING BUTTONS
+    ═══════════════════════════════════════════ -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/919876543210" class="floating-btn floating-btn--whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        </a>
+        <a href="tel:+919876543210" class="floating-btn floating-btn--call" aria-label="Call us">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+    </div>
+
+    <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
